@@ -22,6 +22,10 @@ output messages. These may be redirected by the user of UFL."""
 # Modified by Johan Hake, 2009.
 # Modified by Massimiliano Leoni, 2016
 
+from __future__ import absolute_import
+from __future__ import print_function
+from __future__ import unicode_literals
+
 import sys
 import types
 import logging

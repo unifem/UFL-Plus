@@ -242,6 +242,10 @@ A very brief overview of the language contents follows:
 # Modified by Lawrence Mitchell, 2014
 # Modified by Massimiliano Leoni, 2016
 
+from __future__ import absolute_import
+from __future__ import print_function
+from __future__ import unicode_literals
+
 __version__ = "2016.2.0.dev0"
 
 ########## README

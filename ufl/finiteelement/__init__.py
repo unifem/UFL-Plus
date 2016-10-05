@@ -24,6 +24,10 @@
 # Modified by Andrew T. T. McRae 2014
 # Modified by Lawrence Mitchell 2014
 
+from __future__ import absolute_import
+from __future__ import print_function
+from __future__ import unicode_literals
+
 from ufl.finiteelement.finiteelementbase import FiniteElementBase
 from ufl.finiteelement.finiteelement import FiniteElement
 from ufl.finiteelement.mixedelement import MixedElement

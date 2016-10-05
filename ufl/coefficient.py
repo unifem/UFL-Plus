@@ -22,6 +22,10 @@ of related classes, including Constant."""
 # Modified by Anders Logg, 2008-2009.
 # Modified by Massimiliano Leoni, 2016.
 
+from __future__ import absolute_import
+from __future__ import print_function
+from __future__ import unicode_literals
+
 from ufl.log import error, deprecate
 from ufl.core.ufl_type import ufl_type
 from ufl.core.terminal import FormArgument

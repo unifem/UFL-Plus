@@ -20,6 +20,10 @@
 #
 # Modified by Massimiliano Leoni, 2016
 
+from __future__ import absolute_import
+from __future__ import print_function
+from __future__ import unicode_literals
+
 from ufl.core.expr import Expr
 from ufl.corealg.traversal import unique_post_traversal, cutoff_unique_post_traversal
 from ufl.corealg.multifunction import MultiFunction

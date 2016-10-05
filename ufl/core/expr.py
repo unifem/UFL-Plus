@@ -30,6 +30,10 @@ This is to avoid circular dependencies between ``Expr`` and its subclasses.
 # Modified by Anders Logg, 2008
 # Modified by Massimiliano Leoni, 2016
 
+from __future__ import absolute_import
+from __future__ import print_function
+from __future__ import unicode_literals
+
 from six.moves import xrange as range
 
 from ufl.log import error, deprecate

@@ -22,6 +22,10 @@ Sum and its superclass Expr."""
 #
 # Modified by Massimiliano Leoni, 2016.
 
+from __future__ import absolute_import
+from __future__ import print_function
+from __future__ import unicode_literals
+
 from itertools import chain
 
 from ufl.log import error

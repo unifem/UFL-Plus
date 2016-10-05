@@ -24,6 +24,11 @@ by a factor of 10 or so because of the function call overhead.
 #
 # Modified by Massimiliano Leoni, 2016
 
+from __future__ import absolute_import
+from __future__ import print_function
+from __future__ import unicode_literals
+
+
 # This limits the _depth_ of expression trees
 _recursion_limit_ = 6400  # should be enough for everyone
 

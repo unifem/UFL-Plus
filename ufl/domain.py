@@ -22,6 +22,10 @@
 # Modified by Kristian B. Oelgaard, 2009
 # Modified by Marie E. Rognes 2012
 
+from __future__ import absolute_import
+from __future__ import print_function
+from __future__ import unicode_literals
+
 from ufl.core.ufl_type import attach_operators_from_hash_data
 from ufl.core.ufl_id import attach_ufl_id
 from ufl.corealg.traversal import traverse_unique_terminals

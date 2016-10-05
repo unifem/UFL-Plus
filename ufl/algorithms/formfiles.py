@@ -21,6 +21,10 @@
 # Modified by Anders Logg, 2008-2009.
 # Modified by Marie E. Rognes, 2011.
 
+from __future__ import absolute_import
+from __future__ import print_function
+from __future__ import unicode_literals
+
 import os
 import re
 from ufl.log import error, warning

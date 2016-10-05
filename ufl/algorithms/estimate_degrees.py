@@ -21,6 +21,10 @@
 # Modified by Anders Logg, 2009-2010
 # Modified by Jan Blechta, 2012
 
+from __future__ import absolute_import
+from __future__ import print_function
+from __future__ import unicode_literals
+
 from ufl.assertions import ufl_assert
 from ufl.log import warning, error
 from ufl.form import Form

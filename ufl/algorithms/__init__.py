@@ -27,6 +27,11 @@
 #        recommended to use. The __all__ list below is a start based
 #        on grepping of other FEniCS code for ufl.algorithm imports.
 
+from __future__ import absolute_import
+from __future__ import print_function
+from __future__ import unicode_literals
+
+
 __all__ = [
     "estimate_total_polynomial_degree",
     "sort_elements",

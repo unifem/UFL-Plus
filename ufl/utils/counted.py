@@ -18,6 +18,10 @@
 # You should have received a copy of the GNU Lesser General Public License
 # along with UFL. If not, see <http://www.gnu.org/licenses/>.
 
+from __future__ import absolute_import
+from __future__ import print_function
+from __future__ import unicode_literals
+
 
 def counted_init(self, count=None, countedclass=None):
     "Initialize a counted object, see ExampleCounted below for how to use."

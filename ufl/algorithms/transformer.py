@@ -23,6 +23,10 @@ algorithms."""
 #
 # Modified by Anders Logg, 2009-2010
 
+from __future__ import absolute_import
+from __future__ import print_function
+from __future__ import unicode_literals
+
 from inspect import getargspec
 from ufl.log import error
 from ufl.classes import Variable, all_ufl_classes

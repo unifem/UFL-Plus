@@ -20,6 +20,10 @@
 #
 # Modified by Massimiliano Leoni, 2016
 
+from __future__ import absolute_import
+from __future__ import print_function
+from __future__ import unicode_literals
+
 
 def attach_ufl_id(cls):
     """Equip class with ``.ufl_id()`` and handle bookkeeping.

@@ -23,6 +23,10 @@ converting UFL expressions to other representations."""
 # Modified by Anders Logg, 2008-2009.
 # Modified by Kristian B. Oelgaard, 2011
 
+from __future__ import absolute_import
+from __future__ import print_function
+from __future__ import unicode_literals
+
 import ufl
 from ufl.log import error
 from ufl.assertions import ufl_assert

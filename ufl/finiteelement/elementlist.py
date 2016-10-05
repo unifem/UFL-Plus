@@ -24,7 +24,9 @@ elements by calling the function register_element."""
 # Modified by Lizao Li <lzlarryli@gmail.com>, 2015, 2016
 # Modified by Massimiliano Leoni, 2016
 
+from __future__ import absolute_import
 from __future__ import print_function
+from __future__ import unicode_literals
 
 from ufl.log import warning as ufl_warning
 from ufl.assertions import ufl_assert

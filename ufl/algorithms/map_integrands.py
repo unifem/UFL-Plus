@@ -22,6 +22,10 @@
 # as part of a careful refactoring process, and this file depends on ufl.form
 # which drags in a lot of stuff.
 
+from __future__ import absolute_import
+from __future__ import print_function
+from __future__ import unicode_literals
+
 from ufl.log import error
 from ufl.core.expr import Expr
 from ufl.corealg.map_dag import map_expr_dag

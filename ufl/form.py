@@ -21,6 +21,10 @@
 # Modified by Anders Logg, 2009-2011.
 # Modified by Massimiliano Leoni, 2016.
 
+from __future__ import absolute_import
+from __future__ import print_function
+from __future__ import unicode_literals
+
 from itertools import chain
 from collections import defaultdict
 from ufl.log import error, deprecate

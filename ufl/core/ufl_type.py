@@ -19,6 +19,10 @@
 #
 # Modified by Massimiliano Leoni, 2016
 
+from __future__ import absolute_import
+from __future__ import print_function
+from __future__ import unicode_literals
+
 from ufl.core.expr import Expr
 from ufl.core.compute_expr_hash import compute_expr_hash
 from ufl.utils.formatting import camel2underscore

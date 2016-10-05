@@ -27,6 +27,10 @@ of classes, and for mapping types to different handler functions."""
 # Modified by Kristian B. Oelgaard, 2011
 # Modified by Andrew T. T. McRae, 2014
 
+from __future__ import absolute_import
+from __future__ import print_function
+from __future__ import unicode_literals
+
 # This will be populated part by part below
 __all__ = []
 

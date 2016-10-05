@@ -20,6 +20,10 @@
 #
 # Modified by Anders Logg, 2009.
 
+from __future__ import absolute_import
+from __future__ import print_function
+from __future__ import unicode_literals
+
 from ufl.assertions import ufl_assert
 from ufl.core.expr import Expr
 from ufl.core.terminal import Terminal

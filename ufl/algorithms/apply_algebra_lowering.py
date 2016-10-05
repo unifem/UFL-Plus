@@ -21,6 +21,10 @@ equivalent representations using basic operators."""
 #
 # Modified by Anders Logg, 2009-2010
 
+from __future__ import absolute_import
+from __future__ import print_function
+from __future__ import unicode_literals
+
 from ufl.log import error
 from ufl.assertions import ufl_assert
 

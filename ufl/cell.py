@@ -24,6 +24,10 @@
 # Modified by Andrew T. T. McRae, 2014
 # Modified by Massimiliano Leoni, 2016
 
+from __future__ import absolute_import
+from __future__ import print_function
+from __future__ import unicode_literals
+
 from ufl.log import error
 from ufl.assertions import ufl_assert
 from ufl.core.ufl_type import attach_operators_from_hash_data

@@ -24,6 +24,10 @@ objects."""
 # Modified by Kristian B. Oelgaard, 2011
 # Modified by Massimiliano Leoni, 2016.
 
+from __future__ import absolute_import
+from __future__ import print_function
+from __future__ import unicode_literals
+
 import operator
 from six.moves import map
 from six.moves import xrange as range

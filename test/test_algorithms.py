@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
 
+from __future__ import absolute_import
+from __future__ import print_function
+from __future__ import unicode_literals
+
 __authors__ = "Martin Sandve Alnæs"
 __date__ = "2008-03-12 -- 2009-01-28"
 

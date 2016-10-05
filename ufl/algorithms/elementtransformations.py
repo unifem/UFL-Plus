@@ -20,6 +20,10 @@
 # You should have received a copy of the GNU Lesser General Public License
 # along with UFL. If not, see <http://www.gnu.org/licenses/>.
 
+from __future__ import absolute_import
+from __future__ import print_function
+from __future__ import unicode_literals
+
 from ufl.log import error
 from ufl.finiteelement import FiniteElement, VectorElement, TensorElement, \
     MixedElement, EnrichedElement

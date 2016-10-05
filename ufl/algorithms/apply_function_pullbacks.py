@@ -21,6 +21,10 @@
 # Modified by Lizao Li <lzlarryli@gmail.com>, 2016
 
 
+from __future__ import absolute_import
+from __future__ import print_function
+from __future__ import unicode_literals
+
 from six.moves import xrange as range
 
 from ufl.log import error
