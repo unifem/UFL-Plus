@@ -1,53 +1,35 @@
-===========================
-UFL - Unified Form Language
-===========================
+===============================================
+UFL+ - Unified Form Language with GLP Extension
+===============================================
 
-The Unified Form Language (UFL) is a domain specific language for
-declaration of finite element discretizations of variational
-forms. More precisely, it defines a flexible interface for choosing
-finite element spaces and defining expressions for weak forms in a
-notation close to mathematical notation.
+UFL+ is an extension of the Unified Form Language (UFL). It is a domain-specific
+lanaugage for a unified declaration of discretizations of partial differential 
+equations (PDEs) using the finite element methods (FEMs), generalized finite 
+difference (GFD), and adaptive extended-stencil finite-element method (AES-FEM). 
+The declarations use variational forms, where the test functions can be traditional 
+finite-element basis functions (in the case of FEM and AES-FEM) or Dirac delta 
+functions (in the case of GFD). The PDEs are expressed in both and weak forms
+that closely resemble the mathematical notation.
 
-UFL is part of the FEniCS Project.
-
-For more information, visit http://www.fenicsproject.org
+UFL is a core component of the [FEniCS project](http://www.fenicsproject.org). 
+UFL+ is a core component of UNIFEM, which stands for UNIFied Environment for 
+Multiphysics problems. UNIFEM extends and reuses a number of components of the 
+FEniCS Project, including UFL.
 
 
 Documentation
 =============
 
-Documentation can be viewed at http://fenics-ufl.readthedocs.org/.
+Documentation can be viewed at http://unifem-ufl-plus.readthedocs.org/.
 
-.. image:: https://readthedocs.org/projects/fenics-ufl/badge/?version=latest
-   :target: http://fenics.readthedocs.io/projects/ufl/en/latest/?badge=latest
-   :alt: Documentation Status
-
+.. image:: https://readthedocs.org/projects/ufl-plus/badge/?version=latest
+    :target: http://ufl-plus.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
 
 Automated Testing
 =================
 
-We use Bitbucket Pipelines and Atlassian Bamboo to perform automated
-testing.
-
-.. image:: https://bitbucket-badges.useast.atlassian.io/badge/fenics-project/ufl.svg
-   :target: https://bitbucket.org/fenics-project/ufl/addon/pipelines/home
-   :alt: Pipelines Build Status
-
-.. image:: http://fenics-bamboo.simula.no:8085/plugins/servlet/wittified/build-status/UFL-UD
-   :target: http://fenics-bamboo.simula.no:8085/browse/UFL-UD/latest
-   :alt: Bamboo Build Status
-
-
-Code Coverage
-=============
-
-Code coverage reports can be viewed at
-https://coveralls.io/bitbucket/fenics-project/ufl.
-
-.. image:: https://coveralls.io/repos/bitbucket/fenics-project/ufl/badge.svg?branch=master
-   :target: https://coveralls.io/bitbucket/fenics-project/ufl?branch=master
-   :alt: Coverage Status
-
+We will use Travis CI to perform automated testing.
 
 License
 =======
