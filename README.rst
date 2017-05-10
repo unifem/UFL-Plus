@@ -11,7 +11,7 @@ finite-element basis functions (in the case of FEM and AES-FEM) or Dirac delta
 functions (in the case of GFD). The PDEs are expressed in both and weak forms
 that closely resemble the mathematical notation.
 
-UFL is a core component of the [FEniCS project](http://www.fenicsproject.org). 
+UFL is a core component of the FEniCS project (http://www.fenicsproject.org). 
 UFL+ is a core component of UNIFEM, which stands for UNIFied Environment for 
 Multiphysics problems. UNIFEM extends and reuses a number of components of the 
 FEniCS Project, including UFL.
@@ -20,7 +20,7 @@ FEniCS Project, including UFL.
 Documentation
 =============
 
-Documentation can be viewed at http://unifem-ufl-plus.readthedocs.org/.
+Documentation can be viewed at http://ufl-plus.readthedocs.org/.
 
 .. image:: https://readthedocs.org/projects/ufl-plus/badge/?version=latest
     :target: http://ufl-plus.readthedocs.io/en/latest/?badge=latest
